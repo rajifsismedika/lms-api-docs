@@ -1,0 +1,33 @@
+_id: req_9340d93b87f844baa088883084346934
+type: Request
+parentId: fld_60541299737749fea7b8e5f47602c361
+modified: 1667204321936
+created: 1667204313614
+url: "{{base_url}}/linksehat/mock-otp"
+name: Mock OTP
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "phone_or_email" : "62895341591146"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_993d0bcf952443ca9fc2321ad5e8c1e0
+  - id: pair_40028adc72ed4149ac6e81d57f49f8ed
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1666945625367.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

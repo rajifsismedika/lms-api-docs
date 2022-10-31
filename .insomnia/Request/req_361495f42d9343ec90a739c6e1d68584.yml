@@ -1,0 +1,21 @@
+_id: req_361495f42d9343ec90a739c6e1d68584
+type: Request
+parentId: fld_200b3f0c6cda47c2b2da00a73f6c6664
+modified: 1667206084647
+created: 1667205948073
+url: "{{base_url}}/doctors/112"
+name: Detail Doctor
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667205948073
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

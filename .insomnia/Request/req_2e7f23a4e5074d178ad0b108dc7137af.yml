@@ -1,18 +1,15 @@
-_id: req_91f1ee93bed64095aa9ee7f4e8335d1d
+_id: req_2e7f23a4e5074d178ad0b108dc7137af
 type: Request
-parentId: fld_60541299737749fea7b8e5f47602c361
-modified: 1667204493962
-created: 1667204286265
-url: "{{base_url}}/linksehat/otp-request"
-name: OTP Request
+parentId: fld_8af12f28f6be4bdfb27d4a624ecfcbcc
+modified: 1667204701178
+created: 1667204517767
+url: "{{base_url}}/dashboard/articles/5"
+name: Articles
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-        "phone_or_email" : "62895341591146"
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
@@ -23,7 +20,7 @@ headers:
     value: application/json
     description: ""
 authentication: {}
-metaSortKey: -1667204245169.5
+metaSortKey: -1667203890104
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

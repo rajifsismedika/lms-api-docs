@@ -1,0 +1,33 @@
+_id: req_56340c78087f4f71a415eecd7afed88f
+type: Request
+parentId: fld_0bdbc608f6d8426283f4e95362b9e7b9
+modified: 1667205702919
+created: 1667205474717
+url: "{{base_url}}/hospitals"
+name: List Hospital
+description: List Hospital pagination. Need Parameter current_page, lat & lng for distance
+method: GET
+body: {}
+parameters:
+  - id: pair_4aea01863f9b4721a96b6bcf184d8267
+    name: page
+    value: "2"
+    description: ""
+  - id: pair_a2e303a913784459a804de5ade9e7864
+    name: lat
+    value: "-6.2157196888231345"
+    description: ""
+  - id: pair_2b52e6d6972c4e22b5dfd995be303c35
+    name: lng
+    value: "106.63752857426357"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1667205474717
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

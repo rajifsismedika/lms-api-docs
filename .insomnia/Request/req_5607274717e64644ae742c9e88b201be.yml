@@ -1,0 +1,34 @@
+_id: req_5607274717e64644ae742c9e88b201be
+type: Request
+parentId: fld_540b3eb47c9a45a1842d6cb79dddcaf0
+modified: 1667205241065
+created: 1667205066127
+url: "{{base_url}}/specialities"
+name: List Speciality
+description: |-
+  List Speciality By Organization/Hospitals
+
+  Example Parameter
+  organization_id = 1
+  speciality_id = 2
+method: GET
+body: {}
+parameters:
+  - id: pair_d7189878f3f04a55909b217e5be92630
+    name: organization_id
+    value: "1"
+    description: ""
+  - id: pair_bf3a44de72cc40dea7e127bac5135c08
+    name: speciality_id
+    value: "2"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1667205066127
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

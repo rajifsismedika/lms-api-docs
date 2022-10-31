@@ -1,0 +1,42 @@
+_id: req_d7515469a4b143dc98c2ad7b33c4de52
+type: Request
+parentId: fld_200b3f0c6cda47c2b2da00a73f6c6664
+modified: 1667205856401
+created: 1667205778778
+url: "{{base_url}}/doctors?page=1&limit=10&order_by=name_asc&lat=-6.2954984&lng\
+  =106.6382718"
+name: List Doctor
+description: List Hospital pagination. Need Parameter current_page, lat & lng for distance
+method: GET
+body: {}
+parameters:
+  - id: pair_4aea01863f9b4721a96b6bcf184d8267
+    name: page
+    value: "1"
+    description: ""
+  - id: pair_a2e303a913784459a804de5ade9e7864
+    name: limit
+    value: "10"
+    description: ""
+  - id: pair_2b52e6d6972c4e22b5dfd995be303c35
+    name: order_by
+    value: name_asc
+    description: ""
+  - id: pair_2606c8252c544e5ebaedd5fe3401547d
+    name: lat
+    value: "6.2954984"
+    description: ""
+  - id: pair_ed2231f213da43aea9c03a8798db1faf
+    name: lng
+    value: "106.6382718"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1667205474717
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

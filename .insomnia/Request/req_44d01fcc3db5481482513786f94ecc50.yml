@@ -1,0 +1,29 @@
+_id: req_44d01fcc3db5481482513786f94ecc50
+type: Request
+parentId: fld_8af12f28f6be4bdfb27d4a624ecfcbcc
+modified: 1667205090310
+created: 1667204798042
+url: "{{base_url}}/dashboard/hospitals/5"
+name: Hospitals
+description: parameter lat & lng from user for distance
+method: GET
+body: {}
+parameters:
+  - id: pair_d5a80c5981f44858815ae3e95b46ea9b
+    name: lat
+    value: "-6.2157196888231345"
+    description: ""
+  - id: pair_ef513626fe9b4b7f8c357ef9608f2d8e
+    name: lng
+    value: "106.63752857426357"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1667204798042
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

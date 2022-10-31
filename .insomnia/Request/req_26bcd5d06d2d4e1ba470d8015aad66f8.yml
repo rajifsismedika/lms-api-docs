@@ -1,0 +1,29 @@
+_id: req_26bcd5d06d2d4e1ba470d8015aad66f8
+type: Request
+parentId: fld_540b3eb47c9a45a1842d6cb79dddcaf0
+modified: 1667205328162
+created: 1667205152098
+url: "{{base_url}}/search"
+name: Search Person Or Speciality
+description: Search Person Or Speciality By Organization ID
+method: GET
+body: {}
+parameters:
+  - id: pair_cb7fcf4fa61d4a31bcd9095d3e4565bd
+    name: organization_id
+    value: "1"
+    description: ""
+  - id: pair_d0c7e2269a4a4d62abff419b31ae780b
+    name: value
+    value: robert
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1667205152098
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

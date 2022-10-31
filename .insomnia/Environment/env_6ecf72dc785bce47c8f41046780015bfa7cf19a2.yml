@@ -1,0 +1,16 @@
+_id: env_6ecf72dc785bce47c8f41046780015bfa7cf19a2
+type: Environment
+parentId: wrk_1448d6a83df84215ace7edf009369d8e
+modified: 1667203996006
+created: 1667203749386
+name: Base Environment
+data:
+  base_url: https://aso-api.linksehat.dev
+  token: ""
+dataPropertyOrder:
+  "&":
+    - base_url
+    - token
+color: null
+isPrivate: false
+metaSortKey: 1667203749386

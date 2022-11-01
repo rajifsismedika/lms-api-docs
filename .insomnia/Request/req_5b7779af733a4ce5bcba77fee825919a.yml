@@ -1,0 +1,124 @@
+_id: req_5b7779af733a4ce5bcba77fee825919a
+type: Request
+parentId: fld_e811981728f34f1e97cda85496f50d07
+modified: 1667286579119
+created: 1667207134751
+url: "{{base_url}}/persons"
+name: Create Person
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: name
+      value: Muhammad Fajar
+      id: pair_a788135fb87b4c4e910eb2a5ba1b74e5
+      disabled: false
+      type: text
+      multiline: false
+    - id: pair_29adc212174041618ec8924caf801dab
+      name: birth_place
+      value: Tangerang
+      description: ""
+      disabled: false
+      type: text
+      multiline: false
+    - id: pair_68bbf58470024658b89cfa664d639707
+      name: birth_date
+      value: 1998-07-02
+      description: ""
+      disabled: false
+    - id: pair_5da78ff379494c1b930acf169e8467f7
+      name: gender
+      value: Pria
+      description: ""
+      disabled: false
+    - id: pair_1cceb0a423124931adee50e027c23a34
+      name: phone
+      value: "081280199800"
+      description: ""
+      disabled: false
+    - id: pair_de7cca1fdb274c9e83c550fe84138841
+      name: email
+      value: muhammadfajar191@gmail.com
+      description: ""
+      disabled: false
+    - id: pair_21971d6990704fa8b0c156c82a75835c
+      name: blood_type
+      value: O
+      description: ""
+      disabled: false
+    - id: pair_fa867355631b4359915991d6a3ffa893
+      name: weight
+      value: "174"
+      description: ""
+      disabled: false
+    - id: pair_b7c241968c8848f3917f9dccba35c0b6
+      name: height
+      value: "64"
+      description: ""
+      disabled: false
+    - id: pair_bd32dec9371c4071afebc8a7533f7fc2
+      name: marital_status
+      value: Lajang
+      description: ""
+      disabled: false
+    - id: pair_d4e90cb51a694a89b6b84037337c86ab
+      name: religion
+      value: Islam
+      description: ""
+      disabled: false
+    - id: pair_e62e79ee402c40498b16ded0d38dde22
+      name: last_education
+      value: SMK
+      description: ""
+      disabled: false
+    - id: pair_ae3fd680fcf24ac3af392b70699948af
+      name: current_employment
+      value: Back End Development
+      description: ""
+      disabled: false
+    - id: pair_85767197f3c6442598b01e4b803787f1
+      name: nik
+      value: "1122334455667788"
+      description: ""
+      disabled: false
+    - id: pair_fcc95a76e72645309de2455c1f33d6ed
+      name: is_ktp
+      value: "1"
+      description: ""
+    - id: pair_ee95d0d240ff4378a686aaf69f3bebb4
+      name: user_avatar
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/itdevsismedika/Downloads/Link Sehat_Revamp (Copy)/Icon/Icon.png
+      disabled: true
+    - id: pair_ab2403c7caa841f0af0d23830a120447
+      name: verification_file
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+      disabled: true
+parameters: []
+headers:
+  - id: pair_d9146e6c4777406c9cee91b455daea7a
+    name: Accept
+    value: application/json
+    description: ""
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_5a2ba82590df437fb9d1f474f698db6d
+authentication:
+  type: bearer
+  token: 15|sG4uVATJFcfMzNbCvxYWOUzZs6FvnpMW2nrVRWXV
+  disabled: false
+metaSortKey: -1667207134751
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

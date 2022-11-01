@@ -1,0 +1,115 @@
+_id: req_de105dd5afae40baa809352ad31366cc
+type: Request
+parentId: fld_e811981728f34f1e97cda85496f50d07
+modified: 1667287908287
+created: 1667275964818
+url: "{{base_url}}/persons/1064"
+name: Update Person
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_c3e6fa7379694b218edfad943af3f4e0
+      name: _method
+      value: PUT
+      description: ""
+    - id: pair_bb3846e466214b258db467808010775d
+      name: user_avatar
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+      fileName: /home/itdevsismedika/Downloads/Link Sehat_Revamp (Copy)/Icon/Icon.png
+    - id: pair_f17c404e3eac4d3b85a216eb6dd82c6d
+      name: name
+      value: Dedy Supriadi
+      description: ""
+    - id: pair_1355af176e954b3a92a4399af7a2e346
+      name: birth_place
+      value: Jakarta
+      description: ""
+    - id: pair_1421de6d7f42460f9c60e5f5652a6e69
+      name: birth_date
+      value: 2000-02-02
+      description: ""
+    - id: pair_98d07bbbd81a431e9850d4fdf70ca6ab
+      name: gender
+      value: Pria
+      description: ""
+    - id: pair_29cff2098fd549fb9675573afcdfbaf4
+      name: phone
+      value: "081122334455"
+      description: ""
+    - id: pair_1c5eb0a2b2b7435daa8cfeca3abc2df1
+      name: email
+      value: muhammadfajar191@gmail.com
+      description: ""
+    - id: pair_d28a3e768d3044bb9157f3db01c31ed7
+      name: blood_type
+      value: O
+      description: ""
+    - id: pair_8bb7bc7405354feaa989ace9cc73aa70
+      name: weight
+      value: "174"
+      description: ""
+    - id: pair_d4b04b1f267f46dba2bdb6dd3e109f14
+      name: height
+      value: "64"
+      description: ""
+    - id: pair_55a94c2179b840db98aeadbf6b8deb6f
+      name: marital_status
+      value: Menikah
+      description: ""
+    - id: pair_432b7f33a7f64a83a44a5a501e565e41
+      name: religion
+      value: Islam
+      description: ""
+    - id: pair_dc29719c05f744e592aaed209bad1d3d
+      name: last_education
+      value: SMK
+      description: ""
+    - id: pair_cc5c9a3a9cdd4142b84e6bd82e7427bf
+      name: current_employment
+      value: Karyawan Swasta
+      description: ""
+    - id: pair_15f7078f33ba4eada73bdd9834586e7c
+      name: is_ktp
+      value: "1"
+      description: ""
+    - id: pair_a362f1b6a75043318e05e0bb4b2b6026
+      name: nik
+      value: "1122334455667788"
+      description: ""
+    - id: pair_42cec2e570044987bb5aae80c2e9ed9d
+      name: verification_file
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+      disabled: true
+    - id: pair_ac0e96bfdfda434cb4aa30e60e04dd4b
+      name: relation_with_owner
+      value: Father
+      description: ""
+      disabled: false
+parameters: []
+headers:
+  - id: pair_d9146e6c4777406c9cee91b455daea7a
+    name: Accept
+    value: application/json
+    description: ""
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: 15|sG4uVATJFcfMzNbCvxYWOUzZs6FvnpMW2nrVRWXV
+  disabled: false
+metaSortKey: -1667206541412
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

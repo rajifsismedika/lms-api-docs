@@ -1,0 +1,16 @@
+_id: env_f3f9e5323aa24dee86364580d48ac4bd
+type: Environment
+parentId: env_6ecf72dc785bce47c8f41046780015bfa7cf19a2
+modified: 1667278575010
+created: 1667278542564
+name: Local
+data:
+  base_url: http://localhost:8000/api/linksehat
+  token: ""
+dataPropertyOrder:
+  "&":
+    - base_url
+    - token
+color: null
+isPrivate: false
+metaSortKey: 1667278542564

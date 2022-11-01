@@ -1,0 +1,28 @@
+_id: req_f59531451eb9469885f0ca75393a0c67
+type: Request
+parentId: fld_e811981728f34f1e97cda85496f50d07
+modified: 1667278602288
+created: 1667277364882
+url: "{{base_url}}/persons"
+name: All Person
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_d9146e6c4777406c9cee91b455daea7a
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: 15|sG4uVATJFcfMzNbCvxYWOUzZs6FvnpMW2nrVRWXV
+  disabled: false
+metaSortKey: -1667207134801
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,9 +1,9 @@
 _id: req_40bc12d6145c426d9e97c977b2bb33aa
 type: Request
 parentId: fld_60541299737749fea7b8e5f47602c361
-modified: 1667204331099
+modified: 1667248311796
 created: 1667204199995
-url: "{{base_url}}/linksehat/login"
+url: http://localhost:8000/api/linksehat/login
 name: Login
 description: ""
 method: POST
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-        "phone_or_email" : "62895341591146",
-        "otp" : "7035"
+        "phone_or_email" : "muhammadfajar191@gmail.com",
+        "otp" : "8230"
     }
 parameters: []
 headers:

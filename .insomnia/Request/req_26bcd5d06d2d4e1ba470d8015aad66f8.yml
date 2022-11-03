@@ -1,9 +1,9 @@
 _id: req_26bcd5d06d2d4e1ba470d8015aad66f8
 type: Request
-parentId: fld_540b3eb47c9a45a1842d6cb79dddcaf0
-modified: 1667205328162
+parentId: fld_b695491aaa9d435e8aa27b7d22bc1fef
+modified: 1667447178175
 created: 1667205152098
-url: "{{base_url}}/search"
+url: "{{base_url}}/search-person-speciality"
 name: Search Person Or Speciality
 description: Search Person Or Speciality By Organization ID
 method: GET

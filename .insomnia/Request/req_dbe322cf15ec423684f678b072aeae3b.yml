@@ -1,0 +1,38 @@
+_id: req_dbe322cf15ec423684f678b072aeae3b
+type: Request
+parentId: fld_b695491aaa9d435e8aa27b7d22bc1fef
+modified: 1667425833994
+created: 1667290058425
+url: "{{base_url}}/search-hospital"
+name: Search Hospital
+description: Search Person Or Speciality By Organization ID
+method: GET
+body: {}
+parameters:
+  - id: pair_d0c7e2269a4a4d62abff419b31ae780b
+    name: value
+    value: anak
+    description: ""
+    disabled: false
+  - id: pair_e54cb822ef574c21904120f9aebb69af
+    name: lat
+    value: "-6.2157196888231345"
+    description: ""
+  - id: pair_89a87260afcf473891459e8b62bcfa9b
+    name: lng
+    value: "106.63752857426357"
+    description: ""
+headers:
+  - id: pair_3775e6d87eed4bd7bb384f0841318cf5
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1667205109112.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

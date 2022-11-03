@@ -1,10 +1,10 @@
 _id: req_de105dd5afae40baa809352ad31366cc
 type: Request
 parentId: fld_e811981728f34f1e97cda85496f50d07
-modified: 1667287908287
+modified: 1667440099758
 created: 1667275964818
-url: "{{base_url}}/persons/1064"
-name: Update Person
+url: "{{base_url}}/families/1064"
+name: Update Family
 description: ""
 method: POST
 body:
@@ -19,8 +19,8 @@ body:
       value: ""
       description: ""
       type: file
-      multiline: null
       fileName: /home/itdevsismedika/Downloads/Link Sehat_Revamp (Copy)/Icon/Icon.png
+      disabled: true
     - id: pair_f17c404e3eac4d3b85a216eb6dd82c6d
       name: name
       value: Dedy Supriadi
@@ -86,7 +86,6 @@ body:
       value: ""
       description: ""
       type: file
-      multiline: null
       disabled: true
     - id: pair_ac0e96bfdfda434cb4aa30e60e04dd4b
       name: relation_with_owner

@@ -1,10 +1,10 @@
 _id: req_5607274717e64644ae742c9e88b201be
 type: Request
 parentId: fld_540b3eb47c9a45a1842d6cb79dddcaf0
-modified: 1667205241065
+modified: 1667549883804
 created: 1667205066127
 url: "{{base_url}}/specialities"
-name: List Speciality
+name: List Doctor By Speciality
 description: |-
   List Speciality By Organization/Hospitals
 
@@ -22,7 +22,11 @@ parameters:
     name: speciality_id
     value: "2"
     description: ""
-headers: []
+headers:
+  - id: pair_4c78241507c94a88b7568b5e72442625
+    name: Accept
+    value: application/json
+    description: ""
 authentication: {}
 metaSortKey: -1667205066127
 isPrivate: false

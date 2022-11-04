@@ -1,9 +1,9 @@
 _id: req_f59531451eb9469885f0ca75393a0c67
 type: Request
 parentId: fld_e811981728f34f1e97cda85496f50d07
-modified: 1667440007082
+modified: 1667549920468
 created: 1667277364882
-url: "{{base_url}}/persons"
+url: "{{base_url}}/families"
 name: All Family
 description: ""
 method: GET

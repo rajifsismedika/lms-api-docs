@@ -1,7 +1,7 @@
 _id: req_d5d2af8e815143b7ba45883c14722d8c
 type: Request
 parentId: fld_0bdbc608f6d8426283f4e95362b9e7b9
-modified: 1667467686768
+modified: 1667546977348
 created: 1667205718124
 url: "{{base_url}}/hospitals/1"
 name: Detail Hospital
@@ -17,9 +17,13 @@ parameters:
     name: lng
     value: "106.63752857426357"
     description: ""
-headers: []
+headers:
+  - id: pair_3fc9540586f64e84ae89380412363374
+    name: Accept
+    value: application/json
+    description: ""
 authentication: {}
-metaSortKey: -1667205313407.5
+metaSortKey: -1667205394062.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

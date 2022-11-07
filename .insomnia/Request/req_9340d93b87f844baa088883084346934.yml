@@ -1,9 +1,9 @@
 _id: req_9340d93b87f844baa088883084346934
 type: Request
 parentId: fld_60541299737749fea7b8e5f47602c361
-modified: 1667204321936
+modified: 1667796805792
 created: 1667204313614
-url: "{{base_url}}/linksehat/mock-otp"
+url: "{{base_url}}/mock-otp"
 name: Mock OTP
 description: ""
 method: POST

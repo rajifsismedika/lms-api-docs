@@ -1,9 +1,9 @@
 _id: req_91f1ee93bed64095aa9ee7f4e8335d1d
 type: Request
 parentId: fld_60541299737749fea7b8e5f47602c361
-modified: 1667204493962
+modified: 1667796779522
 created: 1667204286265
-url: "{{base_url}}/linksehat/otp-request"
+url: "{{base_url}}/otp-request"
 name: OTP Request
 description: ""
 method: POST

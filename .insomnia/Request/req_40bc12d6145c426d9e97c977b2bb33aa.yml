@@ -1,9 +1,9 @@
 _id: req_40bc12d6145c426d9e97c977b2bb33aa
 type: Request
 parentId: fld_60541299737749fea7b8e5f47602c361
-modified: 1667248311796
+modified: 1667796790593
 created: 1667204199995
-url: http://localhost:8000/api/linksehat/login
+url: "{{base_url}}/login"
 name: Login
 description: ""
 method: POST

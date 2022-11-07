@@ -1,0 +1,25 @@
+_id: req_10c9ec811f204d13b8c9dd801d91881a
+type: Request
+parentId: fld_60541299737749fea7b8e5f47602c361
+modified: 1667802231696
+created: 1667801746939
+url: "{{base_url}}/profile"
+name: Profile
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_9bd40cc6785b4dc69f2e9a6c9f41a510
+    name: Authorization
+    value: Bearer {{token}}
+    description: ""
+authentication: {}
+metaSortKey: -1667801746939
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

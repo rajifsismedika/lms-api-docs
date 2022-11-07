@@ -1,7 +1,7 @@
 _id: req_40bc12d6145c426d9e97c977b2bb33aa
 type: Request
 parentId: fld_60541299737749fea7b8e5f47602c361
-modified: 1667796790593
+modified: 1667802113370
 created: 1667204199995
 url: "{{base_url}}/login"
 name: Login
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-        "phone_or_email" : "muhammadfajar191@gmail.com",
-        "otp" : "8230"
+        "phone_or_email" : "62895341591146",
+        "otp" : "4799"
     }
 parameters: []
 headers:

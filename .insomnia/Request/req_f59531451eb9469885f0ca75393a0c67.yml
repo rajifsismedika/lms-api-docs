@@ -1,7 +1,7 @@
 _id: req_f59531451eb9469885f0ca75393a0c67
 type: Request
 parentId: fld_e811981728f34f1e97cda85496f50d07
-modified: 1667549920468
+modified: 1668482797777
 created: 1667277364882
 url: "{{base_url}}/families"
 name: All Family
@@ -16,7 +16,7 @@ headers:
     description: ""
 authentication:
   type: bearer
-  token: 15|sG4uVATJFcfMzNbCvxYWOUzZs6FvnpMW2nrVRWXV
+  token: "{{token}}"
   disabled: false
 metaSortKey: -1667207134801
 isPrivate: false

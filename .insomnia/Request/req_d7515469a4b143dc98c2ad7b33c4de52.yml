@@ -1,7 +1,7 @@
 _id: req_d7515469a4b143dc98c2ad7b33c4de52
 type: Request
 parentId: fld_200b3f0c6cda47c2b2da00a73f6c6664
-modified: 1667468097058
+modified: 1668666699154
 created: 1667205778778
 url: "{{base_url}}/doctors?page=1&limit=10&order_by=name_asc&lat=-6.2954984&lng\
   =106.6382718"
@@ -29,6 +29,24 @@ parameters:
   - id: pair_ed2231f213da43aea9c03a8798db1faf
     name: lng
     value: "106.6382718"
+    description: ""
+  - id: pair_8892a4d2208f4495be4073d547ce8e6a
+    name: speciality_id
+    value: "1"
+    description: ""
+    disabled: false
+  - id: pair_c0d79d1f725d4021814bc1d73c3f272c
+    name: speciality_id_in
+    value: 2,3,4
+    description: ""
+    disabled: false
+  - id: pair_c1baafbc0a3844dba8444c9bfd1c5aa9
+    name: hospital_id_in
+    value: 3,4
+    description: ""
+  - id: pair_4318acc80f5f410baf610e8b90728280
+    name: hospital_id
+    value: "1"
     description: ""
 headers: []
 authentication: {}

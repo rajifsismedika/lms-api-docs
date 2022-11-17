@@ -1,7 +1,7 @@
 _id: req_5b7779af733a4ce5bcba77fee825919a
 type: Request
 parentId: fld_e811981728f34f1e97cda85496f50d07
-modified: 1667549778481
+modified: 1668496882714
 created: 1667207134751
 url: "{{base_url}}/families"
 name: Create Family
@@ -11,7 +11,7 @@ body:
   mimeType: multipart/form-data
   params:
     - name: name
-      value: Muhammad Fajar
+      value: MOFO
       id: pair_a788135fb87b4c4e910eb2a5ba1b74e5
       disabled: false
       type: text
@@ -100,6 +100,14 @@ body:
       description: ""
       type: file
       disabled: true
+    - id: pair_5b47c7a594604830a1dea586a97a0f8a
+      name: citizenship
+      value: wni
+      description: ""
+    - id: pair_e97ec8fea271442bb2fb3d43af289ece
+      name: relation_with_owner
+      value: Father
+      description: ""
 parameters: []
 headers:
   - id: pair_d9146e6c4777406c9cee91b455daea7a
@@ -111,7 +119,7 @@ headers:
     id: pair_5a2ba82590df437fb9d1f474f698db6d
 authentication:
   type: bearer
-  token: 15|sG4uVATJFcfMzNbCvxYWOUzZs6FvnpMW2nrVRWXV
+  token: "{{token}}"
   disabled: false
 metaSortKey: -1667207134751
 isPrivate: false

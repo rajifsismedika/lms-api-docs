@@ -1,9 +1,9 @@
 _id: req_de105dd5afae40baa809352ad31366cc
 type: Request
 parentId: fld_e811981728f34f1e97cda85496f50d07
-modified: 1667549768393
+modified: 1668505240162
 created: 1667275964818
-url: "{{base_url}}/families/1064"
+url: "{{base_url}}/families/1063"
 name: Update Family
 description: ""
 method: POST
@@ -19,11 +19,11 @@ body:
       value: ""
       description: ""
       type: file
-      fileName: /home/itdevsismedika/Downloads/Link Sehat_Revamp (Copy)/Icon/Icon.png
-      disabled: true
+      fileName: C:\Users\rajif\Downloads\logo primaya.jpg
+      disabled: false
     - id: pair_f17c404e3eac4d3b85a216eb6dd82c6d
       name: name
-      value: Dedy Supriadi
+      value: askdjnkajsdn
       description: ""
     - id: pair_1355af176e954b3a92a4399af7a2e346
       name: birth_place
@@ -35,7 +35,7 @@ body:
       description: ""
     - id: pair_98d07bbbd81a431e9850d4fdf70ca6ab
       name: gender
-      value: Pria
+      value: P
       description: ""
     - id: pair_29cff2098fd549fb9675573afcdfbaf4
       name: phone
@@ -77,6 +77,7 @@ body:
       name: is_ktp
       value: "1"
       description: ""
+      disabled: true
     - id: pair_a362f1b6a75043318e05e0bb4b2b6026
       name: nik
       value: "1122334455667788"
@@ -92,6 +93,15 @@ body:
       value: Father
       description: ""
       disabled: false
+    - id: pair_35fd71c62f344079bb9352c18f3c6f20
+      name: gender
+      value: P
+      description: ""
+    - id: pair_a720b8aab7fb4613a6252df96c0ce1c4
+      name: citizenship
+      value: wna
+      description: ""
+      disabled: false
 parameters: []
 headers:
   - id: pair_d9146e6c4777406c9cee91b455daea7a
@@ -100,9 +110,10 @@ headers:
     description: ""
   - name: Content-Type
     value: multipart/form-data
+    id: pair_b48d1084af5d43b1af4fdc2e0ce8d7ee
 authentication:
   type: bearer
-  token: 15|sG4uVATJFcfMzNbCvxYWOUzZs6FvnpMW2nrVRWXV
+  token: "{{token}}"
   disabled: false
 metaSortKey: -1667206541412
 isPrivate: false

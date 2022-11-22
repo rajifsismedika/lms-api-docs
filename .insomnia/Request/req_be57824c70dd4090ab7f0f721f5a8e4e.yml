@@ -1,0 +1,37 @@
+_id: req_be57824c70dd4090ab7f0f721f5a8e4e
+type: Request
+parentId: fld_200b3f0c6cda47c2b2da00a73f6c6664
+modified: 1669092842374
+created: 1669087387265
+url: "{{base_url}}/doctors/112/schedule"
+name: Detail Doctor - Schedule
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"speciality_id" : 15,
+    	"type" : "teleconsultation",
+    	"hospital_id" : "1",
+    	"start_date": "2022-11-01",
+    	"end_date": "2022-11-30"
+    }
+parameters: []
+headers:
+  - id: pair_2cabe7e6a6cf4559b479d05e1d0955eb
+    name: Accept
+    value: application/json
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_4b8a73d5e7c74b80bbc8e7e83a83dccd
+authentication: {}
+metaSortKey: -1667205711395
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

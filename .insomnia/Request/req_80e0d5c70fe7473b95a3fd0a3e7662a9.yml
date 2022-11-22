@@ -1,0 +1,32 @@
+_id: req_80e0d5c70fe7473b95a3fd0a3e7662a9
+type: Request
+parentId: fld_60541299737749fea7b8e5f47602c361
+modified: 1669087140862
+created: 1669086671608
+url: "{{base_url}}/notification-tokens/delete/4"
+name: Delete Notification Token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{}"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_993d0bcf952443ca9fc2321ad5e8c1e0
+  - id: pair_40028adc72ed4149ac6e81d57f49f8ed
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{token}}"
+metaSortKey: -1667204245132
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

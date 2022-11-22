@@ -1,0 +1,37 @@
+_id: req_317531ab55894da4be4e0adae0549ca0
+type: Request
+parentId: fld_60541299737749fea7b8e5f47602c361
+modified: 1669086149941
+created: 1669083622206
+url: "{{base_url}}/notification-tokens"
+name: Notification Token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "origin" : "linksehat-app",
+        "type" : "fcm",
+    		"token" : "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_993d0bcf952443ca9fc2321ad5e8c1e0
+  - id: pair_40028adc72ed4149ac6e81d57f49f8ed
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{token}}"
+metaSortKey: -1667204245144.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
